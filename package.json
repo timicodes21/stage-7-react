@@ -2,7 +2,7 @@
   "name": "stage-7-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://timicodes21.github.io/stage-7-react",
+  "homepage": "http://timicodes21.github.io/stage-7-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",

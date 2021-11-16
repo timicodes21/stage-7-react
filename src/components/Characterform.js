@@ -58,7 +58,7 @@ const Characterform = () => {
                                 <Form.Label>
                                     <p className="text-blue font-600">Image</p>
                                 </Form.Label>
-                                <Form.Control type="email" className="bg-light" value={image} onChange={(e) => setImage(image)}/>
+                                <Form.Control type="text" className="bg-light" value={image} onChange={(e) => setImage(image)}/>
                             </Form.Group>
                             <p className="text-pop py-2">Paste the URL of a JPG or PNG of max 20 kb</p>
                             <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
