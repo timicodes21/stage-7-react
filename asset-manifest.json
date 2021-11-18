@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/stage7react/static/css/main.700e2400.chunk.css",
-    "main.js": "/stage7react/static/js/main.e9c6d4d1.chunk.js",
-    "main.js.map": "/stage7react/static/js/main.e9c6d4d1.chunk.js.map",
+    "main.js": "/stage7react/static/js/main.3dbe195d.chunk.js",
+    "main.js.map": "/stage7react/static/js/main.3dbe195d.chunk.js.map",
     "runtime-main.js": "/stage7react/static/js/runtime-main.22f5866e.js",
     "runtime-main.js.map": "/stage7react/static/js/runtime-main.22f5866e.js.map",
     "static/css/2.383c0125.chunk.css": "/stage7react/static/css/2.383c0125.chunk.css",
-    "static/js/2.52e6143b.chunk.js": "/stage7react/static/js/2.52e6143b.chunk.js",
-    "static/js/2.52e6143b.chunk.js.map": "/stage7react/static/js/2.52e6143b.chunk.js.map",
+    "static/js/2.4acd7c41.chunk.js": "/stage7react/static/js/2.4acd7c41.chunk.js",
+    "static/js/2.4acd7c41.chunk.js.map": "/stage7react/static/js/2.4acd7c41.chunk.js.map",
     "index.html": "/stage7react/index.html",
     "static/css/2.383c0125.chunk.css.map": "/stage7react/static/css/2.383c0125.chunk.css.map",
     "static/css/main.700e2400.chunk.css.map": "/stage7react/static/css/main.700e2400.chunk.css.map",
-    "static/js/2.52e6143b.chunk.js.LICENSE.txt": "/stage7react/static/js/2.52e6143b.chunk.js.LICENSE.txt",
+    "static/js/2.4acd7c41.chunk.js.LICENSE.txt": "/stage7react/static/js/2.4acd7c41.chunk.js.LICENSE.txt",
     "static/media/character-1.b8cf9c50.png": "/stage7react/static/media/character-1.b8cf9c50.png",
     "static/media/character-10.f6fdbe59.png": "/stage7react/static/media/character-10.f6fdbe59.png",
     "static/media/character-11.436dd33b.png": "/stage7react/static/media/character-11.436dd33b.png",
@@ -43,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.22f5866e.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.52e6143b.chunk.js",
+    "static/js/2.4acd7c41.chunk.js",
     "static/css/main.700e2400.chunk.css",
-    "static/js/main.e9c6d4d1.chunk.js"
+    "static/js/main.3dbe195d.chunk.js"
   ]
 }
