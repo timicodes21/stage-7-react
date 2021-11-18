@@ -1,5 +1,5 @@
 import Home from "./components/Home";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import Planets from "./components/Planets";
 import Characters from "./components/Characters"
 import Planetform from "./components/Planetform";
@@ -40,7 +40,6 @@ function App() {
             <Charactersides />
           </Route>
         </Switch>
-        
       </div>
     </Router>
   );
