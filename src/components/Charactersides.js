@@ -21,18 +21,18 @@ import Navig from './Navigbar'
 const Charactersides = () => {
 
     const[characters, setCharacters] = useState([
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character1, id: 1},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character2, id: 2},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character3, id: 3},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character4, id: 4},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character5, id: 5},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character6, id: 6},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character7, id: 7},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character8, id: 8},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character9, id: 9},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character2, id: 10},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character3, id: 11},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character4, id: 12}
+        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character1, id: 1, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Cameron Williamson', friends: '23 Friends', image: character2, id: 2, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Leslie Alexander', friends: '23 Friends', image: character3, id: 3, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Kristin Watson', friends: '23 Friends', image: character4, id: 4, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Jenny Wilson', friends: '23 Friends', image: character5, id: 5, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Marvin McKinney', friends: '23 Friends', image: character6, id: 6, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Jerome Bell', friends: '23 Friends', image: character7, id: 7, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Guy Hawkins', friends: '23 Friends', image: character8, id: 8, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Guy Hawkins', friends: '23 Friends', image: character9, id: 9, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character2, id: 10, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Cameron Williamson', friends: '23 Friends', image: character3, id: 11, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
+        {name: 'Leslie Alexander', friends: '23 Friends', image: character4, id: 12, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'}
     ]);
 
 
@@ -45,7 +45,7 @@ const Charactersides = () => {
         <div>
             <Container>
                 <Row>
-                    <div className="col-12 col-md-8 col-lg-8">
+                    <div className="d-none d-md-block col-12 col-md-8 col-lg-8">
                         <div className="pt-2">
                             <Link to="/home" className="link"><h1 className="text-blue font-900">Spacious</h1></Link>
                         </div>

@@ -49,7 +49,7 @@ const Planetsides = () => {
             <div className="planets bg-light">
                 <Container>
                     <Row>
-                        <div className="col-12 col-md-8 col-lg-8">
+                        <div className="d-none d-md-block col-12 col-md-8 col-lg-8">
                             <div className="pt-2">
                                 <Link to="/home" className="link"><h1 className="text-blue font-900">Spacious</h1></Link>
                             </div>

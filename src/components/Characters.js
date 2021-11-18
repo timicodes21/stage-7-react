@@ -17,17 +17,17 @@ const Characters = () => {
     
     const[characters, setCharacters] = useState([
         {name: 'Brooklyn Simmons', friends: '23 Friends', image: character1, id: 1},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character2, id: 2},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character3, id: 3},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character4, id: 4},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character5, id: 5},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character6, id: 6},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character7, id: 7},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character8, id: 8},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character9, id: 9},
+        {name: 'Cameron Williamson', friends: '23 Friends', image: character2, id: 2},
+        {name: 'Leslie Alexander', friends: '23 Friends', image: character3, id: 3},
+        {name: 'Kristin Watson', friends: '23 Friends', image: character4, id: 4},
+        {name: 'Jenny Wilson', friends: '23 Friends', image: character5, id: 5},
+        {name: 'Marvin McKinney', friends: '23 Friends', image: character6, id: 6},
+        {name: 'Jerome Bell', friends: '23 Friends', image: character7, id: 7},
+        {name: 'Guy Hawkins', friends: '23 Friends', image: character8, id: 8},
+        {name: 'Guy Hawkins', friends: '23 Friends', image: character9, id: 9},
         {name: 'Brooklyn Simmons', friends: '23 Friends', image: character2, id: 10},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character3, id: 11},
-        {name: 'Brooklyn Simmons', friends: '23 Friends', image: character4, id: 12}
+        {name: 'Cameron Williamson', friends: '23 Friends', image: character3, id: 11},
+        {name: 'Leslie Alexander', friends: '23 Friends', image: character4, id: 12}
     ]);
 
     let char = JSON.parse(localStorage.getItem('char'));
