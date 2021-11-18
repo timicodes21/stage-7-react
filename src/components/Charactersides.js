@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom'
 import { useHistory } from 'react-router'
 import Navig from './Navigbar'
 
-const Charactersides = () => {
+const Charactersides = ({person, handleCan}) => {
 
     const[characters, setCharacters] = useState([
         {name: 'Brooklyn Simmons', friends: '23 Friends', image: character1, id: 1, description: 'Jane is really a nice person. She’s been living on planet Alpha for the last 10 years.'},
@@ -37,9 +37,6 @@ const Charactersides = () => {
 
 
     const history = useHistory();
-    const handleCan = () => {
-        history.go(-1)
-    }
 
     return (
         <div>
@@ -71,11 +68,11 @@ const Charactersides = () => {
                             <div className="text-blue bg-grey cancel p-1 fw-bold" onClick={handleCan}>X</div>
                         </div> 
                         <div className="pt-2">
-                            <h1 className="text-blue font-800">Brooklyn Simmons</h1>
+                            <h1 className="text-blue font-800">{person.name}</h1>
                         </div>
                         <div>
                             <div className="mt-4">
-                                <span className="text-pop" style={{fontSize: "16px"}}>Brooklyn is really a nice person. She’s been living on planet Alpha for the last 10 years.</span>
+                                <span className="text-pop" style={{fontSize: "16px"}}>{person.description}</span>
                             </div>
                             <div className="d-flex my-3">
                                 <div className="pe-5">

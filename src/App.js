@@ -36,9 +36,6 @@ function App() {
           <Route path="/planetsides">
             <Planetsides />
           </Route>
-          <Route path="/charactersides">
-            <Charactersides />
-          </Route>
         </Switch>
       </div>
     </Router>
